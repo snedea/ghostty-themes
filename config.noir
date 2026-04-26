@@ -1,0 +1,38 @@
+shell-integration-features = no-cursor
+
+# Noir -- a dark office, a desk lamp, and a case that doesn't add up
+background = #0c0c0e
+foreground = #c8c8cc
+cursor-color = #d4a843
+selection-background = #2a2a30
+selection-foreground = #e0e0e4
+
+palette = 0=#0c0c0e
+palette = 1=#a0585c
+palette = 2=#808880
+palette = 3=#d4a843
+palette = 4=#6878a0
+palette = 5=#907888
+palette = 6=#708888
+palette = 7=#c8c8cc
+palette = 8=#383840
+palette = 9=#c06068
+palette = 10=#98a898
+palette = 11=#e8c060
+palette = 12=#8098c0
+palette = 13=#a890a0
+palette = 14=#88a0a0
+palette = 15=#e8e8ec
+
+custom-shader = ~/.config/ghostty/shaders/noir-grain.glsl
+custom-shader-animation = true
+
+background-opacity = 0.96
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10

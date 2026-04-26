@@ -1,0 +1,37 @@
+shell-integration-features = no-cursor
+
+# Pip-Boy 3000 phosphor theme
+background = #0a1a0a
+foreground = #4aff5e
+cursor-color = #4aff5e
+selection-background = #1a4a1a
+selection-foreground = #c8ffc8
+
+palette = 0=#0a1a0a
+palette = 1=#118811
+palette = 2=#2bd84a
+palette = 3=#7fff7f
+palette = 4=#0e6b1f
+palette = 5=#1aa033
+palette = 6=#3fff5a
+palette = 7=#4aff5e
+palette = 8=#1a3a1a
+palette = 9=#3fff5a
+palette = 10=#4aff5e
+palette = 11=#9bff9b
+palette = 12=#118811
+palette = 13=#3fff5a
+palette = 14=#7fff7f
+palette = 15=#c8ffc8
+
+# CRT look (curvature, scanlines, bloom, chromatic aberration)
+custom-shader = ~/.config/ghostty/shaders/pipboy-crt.glsl
+custom-shader-animation = true
+
+# A bit of phosphor haze through the window
+background-opacity = 0.97
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true

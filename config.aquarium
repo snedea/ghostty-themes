@@ -1,0 +1,38 @@
+shell-integration-features = no-cursor
+
+# Aquarium -- late-night coding by the glow of a deep reef tank
+background = #040d14
+foreground = #a8d8e8
+cursor-color = #e080b0
+selection-background = #0a3040
+selection-foreground = #c8e8f0
+
+palette = 0=#040d14
+palette = 1=#c0606a
+palette = 2=#40b888
+palette = 3=#c8c870
+palette = 4=#4890c8
+palette = 5=#a068b8
+palette = 6=#48b8c8
+palette = 7=#a8d8e8
+palette = 8=#183040
+palette = 9=#e07880
+palette = 10=#58d0a0
+palette = 11=#e0e088
+palette = 12=#60a8e0
+palette = 13=#c080d0
+palette = 14=#60d0e0
+palette = 15=#c8f0f8
+
+custom-shader = ~/.config/ghostty/shaders/aquarium-glow.glsl
+custom-shader-animation = true
+
+background-opacity = 0.95
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10

@@ -1,0 +1,39 @@
+shell-integration-features = no-cursor
+
+# Hot Dog Stand -- the legendary Windows 3.1 eye-melter, made actually usable
+# You wanted ketchup and mustard. You got ketchup and mustard.
+background = #1a0505
+foreground = #f5d67b
+cursor-color = #e8342a
+selection-background = #8a3a10
+selection-foreground = #ffe8a0
+
+palette = 0=#1a0505
+palette = 1=#e8342a
+palette = 2=#c8a830
+palette = 3=#f5d67b
+palette = 4=#d85830
+palette = 5=#e85878
+palette = 6=#e8a040
+palette = 7=#f5d67b
+palette = 8=#4a1a10
+palette = 9=#ff5040
+palette = 10=#e0c040
+palette = 11=#ffe898
+palette = 12=#f07850
+palette = 13=#ff7898
+palette = 14=#f0b858
+palette = 15=#fff0c8
+
+custom-shader = ~/.config/ghostty/shaders/hotdog-sizzle.glsl
+custom-shader-animation = true
+
+background-opacity = 0.95
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10

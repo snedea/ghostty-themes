@@ -1,0 +1,38 @@
+shell-integration-features = no-cursor
+
+# Campfire -- s'mores, stargazing, and a mass of floating embers
+background = #0e0a06
+foreground = #e8d4b0
+cursor-color = #e87830
+selection-background = #3a2410
+selection-foreground = #f0e0c0
+
+palette = 0=#0e0a06
+palette = 1=#c85030
+palette = 2=#88a060
+palette = 3=#d8a848
+palette = 4=#6080a0
+palette = 5=#a87060
+palette = 6=#80a888
+palette = 7=#e8d4b0
+palette = 8=#3a2810
+palette = 9=#e86840
+palette = 10=#a0b878
+palette = 11=#f0c060
+palette = 12=#78a0c0
+palette = 13=#c08878
+palette = 14=#98c0a0
+palette = 15=#f8ecd0
+
+custom-shader = ~/.config/ghostty/shaders/campfire-embers.glsl
+custom-shader-animation = true
+
+background-opacity = 0.95
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10

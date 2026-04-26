@@ -1,0 +1,36 @@
+shell-integration-features = no-cursor
+
+# Matrix theme -- pure phosphor green on black
+background = #000000
+foreground = #00ff41
+cursor-color = #00ff41
+selection-background = #003b00
+selection-foreground = #00ff41
+
+palette = 0=#000000
+palette = 1=#008f11
+palette = 2=#00ff41
+palette = 3=#00b32c
+palette = 4=#005f00
+palette = 5=#008f11
+palette = 6=#00b32c
+palette = 7=#00ff41
+palette = 8=#003b00
+palette = 9=#00b32c
+palette = 10=#00ff41
+palette = 11=#00ff41
+palette = 12=#008f11
+palette = 13=#00b32c
+palette = 14=#00ff41
+palette = 15=#b6ffb6
+
+# Animated digital rain shader
+custom-shader = ~/.config/ghostty/shaders/matrix-rain.glsl
+custom-shader-animation = true
+
+background-opacity = 0.97
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true

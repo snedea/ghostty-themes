@@ -1,0 +1,37 @@
+shell-integration-features = no-cursor
+
+# The Dude theme -- warm sepia bowling alley vibes
+# Cardigan cream on dim wood-paneled brown, with rug accents.
+background = #1a1208
+foreground = #e8d4a8
+cursor-color = #d4b896
+selection-background = #4a3825
+selection-foreground = #f0e0c0
+
+palette = 0=#1a1208
+palette = 1=#a8473a
+palette = 2=#87936b
+palette = 3=#d4a86a
+palette = 4=#6b8a99
+palette = 5=#b07560
+palette = 6=#7ba89c
+palette = 7=#d4b896
+palette = 8=#4a3825
+palette = 9=#c25a48
+palette = 10=#a4b282
+palette = 11=#e8c486
+palette = 12=#86a8b8
+palette = 13=#c98c75
+palette = 14=#9bc4b6
+palette = 15=#f0e0c0
+
+# Mellow sepia haze with drifting smoke
+custom-shader = ~/.config/ghostty/shaders/dude-haze.glsl
+custom-shader-animation = true
+
+background-opacity = 0.97
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true

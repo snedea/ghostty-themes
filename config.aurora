@@ -1,0 +1,38 @@
+shell-integration-features = no-cursor
+
+# Aurora Borealis -- northern lights over a frozen midnight sky
+background = #0a0e1a
+foreground = #d0dae8
+cursor-color = #3ddc84
+selection-background = #1a4a5e
+selection-foreground = #e0eaf5
+
+palette = 0=#0a0e1a
+palette = 1=#c25a6a
+palette = 2=#3ddc84
+palette = 3=#c8d87a
+palette = 4=#5b8fd4
+palette = 5=#a87cc8
+palette = 6=#44c8b0
+palette = 7=#d0dae8
+palette = 8=#2a3648
+palette = 9=#e06a7e
+palette = 10=#5aeea0
+palette = 11=#e0f090
+palette = 12=#78aae8
+palette = 13=#c498e0
+palette = 14=#60e0cc
+palette = 15=#eaf0fa
+
+custom-shader = ~/.config/ghostty/shaders/aurora-shimmer.glsl
+custom-shader-animation = true
+
+background-opacity = 0.95
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10

@@ -1,0 +1,38 @@
+shell-integration-features = no-cursor
+
+# Sakura -- cherry blossom season at midnight, petals on the wind
+background = #0c0814
+foreground = #e8d8e0
+cursor-color = #e890a8
+selection-background = #2a1030
+selection-foreground = #f0e0ea
+
+palette = 0=#0c0814
+palette = 1=#c86080
+palette = 2=#78a87c
+palette = 3=#c8a870
+palette = 4=#6878b0
+palette = 5=#b070a0
+palette = 6=#6898a0
+palette = 7=#e8d8e0
+palette = 8=#281830
+palette = 9=#e07898
+palette = 10=#90c094
+palette = 11=#e0c088
+palette = 12=#8098d0
+palette = 13=#d088b8
+palette = 14=#80b0b8
+palette = 15=#f8f0f4
+
+custom-shader = ~/.config/ghostty/shaders/sakura-petals.glsl
+custom-shader-animation = true
+
+background-opacity = 0.95
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10

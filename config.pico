@@ -1,0 +1,38 @@
+shell-integration-features = no-cursor
+
+# Pico-8 inspired -- 8-bit modern, friendly, clean
+background = #1d2b53
+foreground = #fff1e8
+cursor-color = #ffec27
+selection-background = #2f3f7a
+selection-foreground = #fff1e8
+
+palette = 0=#000000
+palette = 1=#ff004d
+palette = 2=#00e436
+palette = 3=#ffec27
+palette = 4=#29adff
+palette = 5=#ff77a8
+palette = 6=#ffccaa
+palette = 7=#c2c3c7
+palette = 8=#5f574f
+palette = 9=#ff004d
+palette = 10=#00e436
+palette = 11=#ffa300
+palette = 12=#29adff
+palette = 13=#ff77a8
+palette = 14=#ffccaa
+palette = 15=#fff1e8
+
+custom-shader = ~/.config/ghostty/shaders/pico-drift.glsl
+custom-shader-animation = true
+
+background-opacity = 0.97
+background-blur = true
+minimum-contrast = 1.05
+
+cursor-style = block
+cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10
