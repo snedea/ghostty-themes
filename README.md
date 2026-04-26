@@ -30,7 +30,7 @@ cp ~/.config/ghostty-themes/config.campfire ~/.config/ghostty/config
 cp -r ~/.config/ghostty-themes/shaders/ ~/.config/ghostty/shaders/
 ```
 
-Ghostty auto-reloads when the config file changes -- no restart needed.
+Ghostty auto-reloads when the config file changes -- no restart needed. If the theme doesn't apply immediately, press `,` in Ghostty to force a config reload.
 
 ## Theme Switcher
 
@@ -65,7 +65,7 @@ Pick a theme [1-12]:
 ghostty-theme sakura
 ```
 
-The current theme is marked with `▸` in the menu.
+The current theme is marked with `▸` in the menu. After switching, press `,` in Ghostty to apply the theme if it doesn't reload automatically.
 
 ## Writing Your Own Theme
 
