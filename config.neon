@@ -1,30 +1,30 @@
 shell-integration-features = no-cursor
 
-# Pico-8 inspired -- 8-bit modern, friendly, clean
-background = #1d2b53
-foreground = #fff1e8
-cursor-color = #ffec27
-selection-background = #2f3f7a
-selection-foreground = #fff1e8
+# Neon VHS -- retro sunset synthwave with tape wobble and tracking tears
+background = #1a1025
+foreground = #ffe5f1
+cursor-color = #ff6ec7
+selection-background = #2d1b40
+selection-foreground = #ffe5f1
 
-palette = 0=#000000
-palette = 1=#ff004d
-palette = 2=#00e436
-palette = 3=#ffec27
-palette = 4=#29adff
-palette = 5=#ff77a8
-palette = 6=#ffccaa
-palette = 7=#c2c3c7
-palette = 8=#5f574f
-palette = 9=#ff004d
-palette = 10=#00e436
-palette = 11=#ffa300
-palette = 12=#29adff
-palette = 13=#ff77a8
-palette = 14=#ffccaa
-palette = 15=#fff1e8
+palette = 0=#1a1025
+palette = 1=#ff2e63
+palette = 2=#08f7fe
+palette = 3=#ff9f1c
+palette = 4=#6a3de8
+palette = 5=#ff6ec7
+palette = 6=#08f7fe
+palette = 7=#ffe5f1
+palette = 8=#3d2c52
+palette = 9=#ff6a88
+palette = 10=#5ffbf1
+palette = 11=#ffc857
+palette = 12=#9d7aff
+palette = 13=#ff8fd8
+palette = 14=#7dfcff
+palette = 15=#ffffff
 
-custom-shader = ~/.config/ghostty/shaders/pico-drift.glsl
+custom-shader = ~/.config/ghostty/shaders/neon-vhs.glsl
 custom-shader-animation = true
 
 background-opacity = 0.97

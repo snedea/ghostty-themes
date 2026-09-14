@@ -1,31 +1,30 @@
 shell-integration-features = no-cursor
 
-# Matrix theme -- pure phosphor green on black
-background = #000000
-foreground = #00ff41
-cursor-color = #00ff41
-selection-background = #003b00
-selection-foreground = #00ff41
+# Cyberpunk -- neon synthwave city with a pixel bug crawling the screen
+background = #0d0221
+foreground = #e0d7ff
+cursor-color = #00fff9
+selection-background = #3c1361
+selection-foreground = #e0d7ff
 
-palette = 0=#000000
-palette = 1=#008f11
-palette = 2=#00ff41
-palette = 3=#00b32c
-palette = 4=#005f00
-palette = 5=#008f11
-palette = 6=#00b32c
-palette = 7=#00ff41
-palette = 8=#003b00
-palette = 9=#00b32c
-palette = 10=#00ff41
-palette = 11=#00ff41
-palette = 12=#008f11
-palette = 13=#00b32c
-palette = 14=#00ff41
-palette = 15=#b6ffb6
+palette = 0=#0d0221
+palette = 1=#ff2975
+palette = 2=#00fff9
+palette = 3=#f9c80e
+palette = 4=#7b2ff7
+palette = 5=#ff2975
+palette = 6=#00fff9
+palette = 7=#e0d7ff
+palette = 8=#3c1361
+palette = 9=#ff5c8a
+palette = 10=#5cffef
+palette = 11=#ffe066
+palette = 12=#a374f9
+palette = 13=#ff8fc4
+palette = 14=#7dfff5
+palette = 15=#ffffff
 
-# Animated digital rain shader
-custom-shader = ~/.config/ghostty/shaders/matrix-rain.glsl
+custom-shader = ~/.config/ghostty/shaders/cyberpunk-bug.glsl
 custom-shader-animation = true
 
 background-opacity = 0.97
@@ -34,3 +33,6 @@ minimum-contrast = 1.05
 
 cursor-style = block
 cursor-style-blink = true
+
+window-padding-x = 10
+window-padding-y = 10
