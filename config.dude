@@ -35,3 +35,5 @@ minimum-contrast = 1.05
 
 cursor-style = block
 cursor-style-blink = true
+
+macos-titlebar-style = hidden

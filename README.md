@@ -32,6 +32,8 @@ cp -r ~/.config/ghostty-themes/shaders/ ~/.config/ghostty/shaders/
 
 Ghostty auto-reloads when the config file changes -- no restart needed. If the theme doesn't apply immediately, press `cmd+shift+,` (with the Ghostty window focused) to force a config reload.
 
+Every theme sets `macos-titlebar-style = hidden`. The custom shader only renders inside the terminal surface, so a native title bar shows as a flat strip with no effect. Hiding it lets the shader fill the whole window; you lose the traffic-light buttons, so use `cmd+w` to close and the Window > Move & Resize menu (or a window manager) to place it. Title bar changes apply to new windows only: open one with `cmd+n` or restart Ghostty.
+
 ## Theme Switcher
 
 A shell script for quick switching between themes.
